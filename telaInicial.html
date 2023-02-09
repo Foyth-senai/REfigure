@@ -6,7 +6,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RE:figure</title>
 </head>
+<link href='https://fonts.googleapis.com/css?family=Fredoka' rel='stylesheet'>
+
+
 <style>
+.usuario
+    {
+        position: absolute;
+        right: 120px;
+        top: -5px;
+    }
+
+
+.carrinho
+    {
+        position: absolute;
+        right: -280px;
+        top: -196px;
+
+
+
+
+    }
+    .bandeira
+    {
+        position: absolute;
+        right: 20px;
+        top: 8px;
+    }
+.pesquisa
+    {
+    width: 300px;
+        height: 35px;
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        top:10px;
+        left:40%;
+        border: 1.5px;
+        border-style: solid;
+        border-radius: 5px;
+    }
+    .search-circle-outline
+    {
+    position: relative;
+    padding-left: 100px;
+    }
+
+
 .logo
     {
         position: absolute;
@@ -14,11 +60,14 @@
         top: -9px;
 
 
+
+
     }
+
 
 .retangulo
     {
-        width: 10000px;
+        width: 100%;
         height: 55px;
         background-color: rgb(95, 228, 115);
         position: absolute;
@@ -26,24 +75,88 @@
         left:0px;
         border-top-width: 0;
         border-left-width: 0;
+        border-right-width: 0;
         border-bottom: 2px;
         border-style: solid;
     }
+    .cabecalho
+    {
+        width: 100%;
+        height: 40px;
+        background: rgba(134, 248, 151, 0.5);
+        position:absolute;
+        top:57px;
+        left:0px;
+        border-top-width: 0;
+        border-left-width: 0;
+        border-right-width: 0;
+        border-bottom: 2px;
+        border-style: solid;
+   
+    }  
+ a {
+        font-family: 'Fredoka One';font-size: 17px;
+        margin-left: 100px;
+        color:rgb(10, 78, 36)
+    }	
+
+
+
+
+
+
 
 
 </style>
 <body>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
     <div class="retangulo">  
     </div>
+
+
 
 
     <div class="logo">
         <img src="RE FIGURE.png" width="75">
     </div>
+
+
+    <div class="cabecalho">
+        <a><strong> CATEGORIAS</strong></a>
+        <a><strong> QUEM SOMOS</strong></a>
+        <a><strong> LANÇAMENTOS</strong></a>
+        <a><strong> FILAMENTO</strong></a>
+        <a><strong> PROMOÇÃO</strong></a>
+        <a><strong> TERMOS</strong></a>
+
+
+    </div>
    
     <div class="pesquisa">
-       
     </div>
-    
+    <ion-icon name="search-circle-outline"></ion-icon>
+
+
+    <div class="bandeira">
+        <img src="bandeira2.png" width="60" >
+    </div>
+
+
+    <div class="carrinho" >
+        <img src="carrinho.png" width="800"  >
+    </div>
+   
+    <div class="usuario" >  
+        <img src="usuario.png" width="120" >
+    </div>
+
+
+
+
+</body>
+</html>
 </body>
 </html>
