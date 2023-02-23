@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Conversor de Vídeos do YouTube para MP4</title>
+  </head>
+  <body>
+    <h1>Conversor de Vídeos do YouTube para MP4</h1>
+    <p>Insira o link do vídeo do YouTube abaixo:</p>
+    <form action="converter.php" method="post">
+      <input type="text" name="link" placeholder="Insira o link aqui">
+      <input type="submit" value="Converter">
+    </form>
+  </body>
+</html>
